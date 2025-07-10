@@ -1,0 +1,20 @@
+2. Explain whether each scenario is a classifcation or regression problem, and indicate whether we are most interested in inference or prediction. Finally, provide n and p.
+(a) We collect a set of data on the top 500 frms in the US. For each
+frm we record proft, number of employees, industry and the
+CEO salary. We are interested in understanding which factors
+afect CEO salary.
+(b) We are considering launching a new product and wish to know
+whether it will be a success or a failure. We collect data on 20
+similar products that were previously launched. For each product we have recorded whether it was a success or failure, price
+charged for the product, marketing budget, competition price,
+and ten other variables.
+(c) We are interested in predicting the % change in the USD/Euro
+exchange rate in relation to the weekly changes in the world
+stock markets. Hence we collect weekly data for all of 2012. For
+each week we record the % change in the USD/Euro, the %
+change in the US market, the % change in the British market,
+and the % change in the German market.
+
+a) Это задача регрессии, нам нужно выявить зависимость CEO salary от параметров profit, number of emloyees и industry. Нас инетересует inference, тк нам нужно не предсказать зарплату, а понять от чего она зависит. n = 500, p = 3
+b) Это классификация, нам важен prediction, n = 20, p = 13
+c) n = 52(недель в году), p = 3(проценты на трех рынках). Это задачи регресси в которой нам важен prediction

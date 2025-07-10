@@ -1,0 +1,15 @@
+1. For each of parts (a) through (d), indicate whether we would generally
+expect the performance of a fexible statistical learning method to be
+better or worse than an infexible method. Justify your answer.
+(a) The sample size n is extremely large, and the number of predictors p is small.
+(b) The number of predictors p is extremely large, and the number
+of observations n is small.
+(c) The relationship between the predictors and response is highly
+non-linear.
+(d) The variance of the error terms, i.e. σ2 = Var("), is extremely
+high.
+
+a) Много данных, мало зависимых - лучше flexible, тк маленьких bias, а var можно уменьший за счет большой выборки, тк мы смотрим не на шумы, а на реальные зависимости
+b) Тк у нас малло данных, если брать flexible модель мы попадем будем шумы рассматривать как зависимости, а значит будем переобучать модель и слишком "подгонять" ее, поэтому лучше inflexible
+c) Тк зависимости сложные, лучше брать flexible, тк inflexible может не выявить сложных зависимостей
+d) Большая ошибка, значит, что у нас много шумов, если брать flexible мы будем воспринимать эти шумы как часть зависимости, а это не так, значит лучше inflexible

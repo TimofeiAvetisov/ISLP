@@ -1,0 +1,4 @@
+Describe the diferences between a parametric and a non-parametric
+statistical learning approach. What are the advantages of a parametric approach to regression or classifcation (as opposed to a nonparametric approach)? What are its disadvantages?
+
+Вообще paramtric и non-paramtric в каком-то смысле эквивалентны гибкости, а значит ответ на прошлых пункт подходит и сюда
